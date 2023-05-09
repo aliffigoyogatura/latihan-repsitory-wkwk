@@ -1,0 +1,184 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: block;
+	background-color: #FEFF86;
+}
+
+.navLinks {
+	justify-content: space-between;
+	text-align: center;
+	display: flex;
+}
+
+.navLinks ul{
+	margin: auto;
+	align-items: center;
+	display: flex;
+}
+
+.navLinks li a{
+	padding: 1rem 1rem 1rem 1rem;
+	margin: 0.5rem;
+	font-size: larger;
+}
+
+.slogan{
+	font-family: 'Sigmar', cursive;
+	font-size: 29px;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+}
+
+ul {
+	/* list-style: ; */
+	margin: 1rem;
+	padding: 0;
+}
+
+ul.nav {
+	list-style: none;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+section {
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Homepage styles */
+
+.banner {
+	background-image: url('banner.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	position: relative;
+}
+
+.banner h1 {
+	color: #fff;
+	font-size: 48px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Blog styles */
+
+.article {
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.article h2 {
+	margin-top: 0;
+}
+
+.article p {
+	margin-bottom: 0;
+}
+
+/* About styles */
+
+.about-info {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-info h2 {
+	flex-basis: 100%;
+	margin-top: 0;
+}
+
+.about-info p {
+	flex-basis: 50%;
+}
+
+.about-team {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-team img {
+	max-width: 100%;
+}
+
+.about-team h3 {
+	margin-top: 0;
+}
+
+/* Contact styles */
+
+.contact-form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact-form label {
+	flex-basis: 100%;
+	margin-bottom: 10px;
+}
+
+.contact-form input[type=text],
+.contact-form textarea {
+	flex-basis: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.contact-form input[type=submit] {
+	background-color: #333;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px 20px;
+}
+
+.contact-form input[type=submit]:hover {
+	background-color: #666;
+}
+
+article h2,p {
+	text-align: center;
+}
+
+article ul{
+	text-align: center;
+	list-style-position: inside;
+}
+
+img {
+	height: 500px;
+	display: block;
+	margin: 0 auto;
+}
